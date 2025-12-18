@@ -1,0 +1,34 @@
+[
+  {
+    "value": "complex",
+    "label": "Сложный проект",
+    "description": "PostgreSQL + S3 + MongoDB optional",
+    "basePrice": 5000,
+    "backendPercentage": 20,
+    "disabled": ["standard", "economy"]
+  },
+  {
+    "value": "standard",
+    "label": "Стандартная система данных",
+    "description": "MySQL/MariaDB/Firebase",
+    "basePrice": 300,
+    "backendPercentage": 10,
+    "disabled": []
+  },
+  {
+    "value": "light",
+    "label": "Лёгкий проект",
+    "description": "SQLite/Supabase",
+    "basePrice": 200,
+    "backendPercentage": 10,
+    "disabled": ["high"]
+  },
+  {
+    "value": "none",
+    "label": "Без БД",
+    "description": "Лендинги, формы, внешние API",
+    "basePrice": 0,
+    "backendPercentage": 0,
+    "disabled": []
+  }
+]

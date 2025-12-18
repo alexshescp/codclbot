@@ -1,0 +1,44 @@
+[
+  {
+    "value": "none",
+    "label": "Без инфраструктуры",
+    "percentage": 0,
+    "minPrice": 0,
+    "maxPrice": null
+  },
+  {
+    "value": "cloud",
+    "label": "Облако (GCP/AWS/Azure)",
+    "percentage": 25,
+    "minPrice": 5000,
+    "maxPrice": null
+  },
+  {
+    "value": "dedicated",
+    "label": "Выделенный сервер",
+    "percentage": 25,
+    "minPrice": 2000,
+    "maxPrice": null
+  },
+  {
+    "value": "virtual",
+    "label": "Виртуальный сервер",
+    "percentage": 25,
+    "minPrice": 2000,
+    "maxPrice": null
+  },
+  {
+    "value": "shared",
+    "label": "Shared hosting",
+    "percentage": 25,
+    "minPrice": 500,
+    "maxPrice": null
+  },
+  {
+    "value": "free",
+    "label": "Бесплатный хостинг",
+    "percentage": 25,
+    "minPrice": 0,
+    "maxPrice": 1000
+  }
+]

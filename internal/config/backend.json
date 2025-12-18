@@ -1,0 +1,20 @@
+[
+  {
+    "value": "high",
+    "label": "High-reliability",
+    "description": "Go/Python микросервисы, Cloudflare, очереди, Kubernetes",
+    "pricePerFunction": 100
+  },
+  {
+    "value": "standard",
+    "label": "Standard",
+    "description": "Монолит PHP+Node.js, базовая защита",
+    "pricePerFunction": 50
+  },
+  {
+    "value": "economy",
+    "label": "Economy",
+    "description": "PHP скрипты, минимальная функциональность",
+    "pricePerFunction": 40
+  }
+]
