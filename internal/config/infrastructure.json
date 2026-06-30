@@ -1,44 +1,30 @@
 [
   {
-    "value": "none",
-    "label": "Без инфраструктуры",
+    "value": "singleCore",
+    "label": "1 основной канал",
     "percentage": 0,
     "minPrice": 0,
     "maxPrice": null
   },
   {
-    "value": "cloud",
-    "label": "Облако (GCP/AWS/Azure)",
-    "percentage": 25,
-    "minPrice": 5000,
+    "value": "fewChannels",
+    "label": "2–3 ключевые площадки",
+    "percentage": 10,
+    "minPrice": 300,
     "maxPrice": null
   },
   {
-    "value": "dedicated",
-    "label": "Выделенный сервер",
-    "percentage": 25,
-    "minPrice": 2000,
+    "value": "multiPlatform",
+    "label": "4–6 площадок + кросспостинг",
+    "percentage": 20,
+    "minPrice": 800,
     "maxPrice": null
   },
   {
-    "value": "virtual",
-    "label": "Виртуальный сервер",
-    "percentage": 25,
-    "minPrice": 2000,
+    "value": "omniChannel",
+    "label": "7+ площадок, омниканальная дистрибуция",
+    "percentage": 30,
+    "minPrice": 1500,
     "maxPrice": null
-  },
-  {
-    "value": "shared",
-    "label": "Shared hosting",
-    "percentage": 25,
-    "minPrice": 500,
-    "maxPrice": null
-  },
-  {
-    "value": "free",
-    "label": "Бесплатный хостинг",
-    "percentage": 25,
-    "minPrice": 0,
-    "maxPrice": 1000
   }
 ]

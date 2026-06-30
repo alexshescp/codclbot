@@ -1,34 +1,26 @@
 [
   {
-    "value": "complex",
-    "label": "Сложный проект",
-    "description": "PostgreSQL + S3 + MongoDB optional",
-    "basePrice": 5000,
-    "backendPercentage": 20,
-    "disabled": ["standard", "economy"]
+    "value": "contentLight",
+    "label": "Лёгкая контент-система",
+    "description": "До 10 материалов в месяц, без сложных контент-цепочек",
+    "basePrice": 300,
+    "backendPercentage": 5,
+    "disabled": []
   },
   {
-    "value": "standard",
-    "label": "Стандартная система данных",
-    "description": "MySQL/MariaDB/Firebase",
-    "basePrice": 300,
+    "value": "contentStandard",
+    "label": "Стандартная контент-система",
+    "description": "10–25 материалов в месяц, несколько форматов и рубрик",
+    "basePrice": 800,
     "backendPercentage": 10,
     "disabled": []
   },
   {
-    "value": "light",
-    "label": "Лёгкий проект",
-    "description": "SQLite/Supabase",
-    "basePrice": 200,
-    "backendPercentage": 10,
-    "disabled": ["high"]
-  },
-  {
-    "value": "none",
-    "label": "Без БД",
-    "description": "Лендинги, формы, внешние API",
-    "basePrice": 0,
-    "backendPercentage": 0,
+    "value": "contentPro",
+    "label": "Интенсивная контент-система",
+    "description": "25+ материалов в месяц, кампании и многоканальные цепочки",
+    "basePrice": 2000,
+    "backendPercentage": 15,
     "disabled": []
   }
 ]

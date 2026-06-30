@@ -1,20 +1,20 @@
 [
   {
-    "value": "high",
-    "label": "High-reliability",
-    "description": "Go/Python микросервисы, Cloudflare, очереди, Kubernetes",
-    "pricePerFunction": 100
+    "value": "local",
+    "label": "Локальный / нишевой рынок",
+    "description": "Фокус на одной стране или нише, без сложной мультиязычности",
+    "pricePerFunction": 120
   },
   {
-    "value": "standard",
-    "label": "Standard",
-    "description": "Монолит PHP+Node.js, базовая защита",
-    "pricePerFunction": 50
+    "value": "europe",
+    "label": "Европейский рынок",
+    "description": "Несколько стран и языков, разные ICP и позиционирование",
+    "pricePerFunction": 180
   },
   {
-    "value": "economy",
-    "label": "Economy",
-    "description": "PHP скрипты, минимальная функциональность",
-    "pricePerFunction": 40
+    "value": "global",
+    "label": "Глобальный охват",
+    "description": "Мультилингвальный бренд, сложные сегменты и регионы",
+    "pricePerFunction": 250
   }
 ]

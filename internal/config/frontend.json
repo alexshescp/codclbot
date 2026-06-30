@@ -1,32 +1,26 @@
 [
   {
-    "value": "aiSolution",
-    "label": "Готовое AI-решение",
-    "description": "Vercel v0 / Bolt / Lovable / Replit прототип",
-    "price": 100
-  },
-  {
-    "value": "codedSite",
-    "label": "Сверстанный сайт / сервис",
-    "description": "Есть верстка, надо интегрировать и доработать",
+    "value": "startFromZero",
+    "label": "Старт с нуля",
+    "description": "Нет системного SMM, есть только разрозненные аккаунты",
     "price": 200
   },
   {
-    "value": "uxuiDesign",
-    "label": "Готовый UX/UI",
-    "description": "Дизайн есть, кода нет",
-    "price": 300
+    "value": "basicPresence",
+    "label": "Базовое присутствие",
+    "description": "Оформлены 1–2 ключевые площадки, нет устойчивой системы",
+    "price": 400
   },
   {
-    "value": "customWebsite",
-    "label": "Сайт с нуля",
-    "description": "Полная разработка сайта",
-    "price": 1000
+    "value": "designedPresence",
+    "label": "Оформленная визуальная система",
+    "description": "Есть айдентика и базовый контент-план",
+    "price": 700
   },
   {
-    "value": "customApp",
-    "label": "Приложение с нуля",
-    "description": "Кастомная разработка",
-    "price": 10000
+    "value": "activeBrand",
+    "label": "Активный бренд",
+    "description": "Регулярные публикации, нужна масштабируемая система роста и SEO",
+    "price": 1200
   }
 ]
